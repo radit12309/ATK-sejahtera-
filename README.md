@@ -295,7 +295,6 @@
 <span class="material-symbols-outlined">call</span>
 </div>
 <div>
-<h5 class="font-headline font-bold text-lg text-primary mb-2">WhatsApp Business</h5>
  <a href="https://wa.me/6285655504887">
   Chat Saya di WhatsApp
 </a>
