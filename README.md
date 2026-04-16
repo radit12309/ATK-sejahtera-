@@ -134,6 +134,7 @@
 </div>
 </div>
 <div class="p-8 flex flex-col flex-grow">
+<img>88ca5a55bb8dfd8f7100e4da0a28 21b6.jpg_720x720q80.jpg</img>
 <span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Pens &amp; Writing</span>
 <h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Faber-Castell Blue Edition</h3>
 <div class="flex flex-col gap-4">
