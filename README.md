@@ -128,7 +128,9 @@
 <div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
 <img alt="Faber-Castell" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDO3MvR-L7-uNyRwYfssvrtymlB5ky5d0rAwRWAy1nZhLvflnPULf0x8_yLuxQ1egPnJcFj9ZVF_4YAtl-5ABo3cQbwV2b_CeRVkdJxrJDjezTgLxCuenmQBO9qY6-LNXwosiJWWMWrds1mDdFMhgmx5mmBtLy-FdKjRPhfZORp1QW9ePGRdLeOU3IhswXNtHyqOfFmsbViq3B8Y0-mm0uyQDuNQlBMH_vwYno70HC6F5z5-eP1pZZn32aQO8TP5aDV3gaCD17ieMFC"/>
 <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-<a class="bg-white text-primary px-6 py-3 font-body font-bold text-xs tracking-widest uppercase hover:bg-gold hover:text-white transition-colors" href="https://wa.me/6285655504887?text=Saya%20tertarik%20Faber-Castell">Pesan Sekarang</a>
+<a class="bg-white text-primary px-6 py-3 font-body font-bold text-xs tracking-widest uppercase hover:bg-gold hover:text-white transition-colors" a class="text-gold flex items-center gap-2 font-bold text-xs tracking-wider uppercase group-hover:underline" href="https://wa.me/6285655504887">
+                                WhatsApp <span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
 </div>
 </div>
 <div class="p-8 flex flex-col flex-grow">
