@@ -175,7 +175,7 @@
 </div>
 <div class="p-8 flex flex-col flex-grow">
 <span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Binding &amp; Tools</span>
-<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Joyko HD-10 Stapler</h3>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Joyko HD-10 Staples</h3>
 <div class="flex flex-col gap-4">
 <p class="text-sm font-body font-medium text-slate-400">Harga Satuan</p>
 <div class="flex justify-between items-end">
