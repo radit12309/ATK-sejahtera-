@@ -134,7 +134,6 @@
 </div>
 </div>
 <div class="p-8 flex flex-col flex-grow">
-<img>88ca5a55bb8dfd8f7100e4da0a28 21b6.jpg_720x720q80.jpg</img>
 <span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Pens &amp; Writing</span>
 <h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Faber-Castell Blue Edition</h3>
 <div class="flex flex-col gap-4">
@@ -148,7 +147,7 @@
 <!-- Product Card 2 -->
 <div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
 <div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
-<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA17HDBL4BhlQwwU531CMc8xxysY9d9RlloTU-S8L4-PKiuZ1dSt4DDOP1b447IJ4o3LRl8D3pa4uBhCSt7eS4TWnpE4xYP_xWvbvu35ftaMAInJ4B955PfmfJEkJSDndCfdythrKZYpq2reoGb55j6PvTHnXsxZf73lkFE3E672b1APNpHjS6_U-c5qiWBtPS6jR_XP_GhdP-DUIE879OyCT8SLIIw27qsCElMB0-r1K3qSLMjhjQ53pQTOo0lnAT5YXorb27_eNUK"/>
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/88ca5a55bb8dfd8f7100e4da0a28 21b6.jpg_720x720q80.jpg/>
 <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
 </div>
 </div>
