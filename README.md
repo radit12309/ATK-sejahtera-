@@ -147,8 +147,7 @@
 <!-- Product Card 2 -->
 <div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
 <div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
-<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"src="Kertas.jpg_720x720q80.jpg"
-/>
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 "src=./88ca5a55bb8dfd8f7100e4da0a2821b6.jpg_720x720q80.jpg" width="300">
 <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
 </div>
 </div>
