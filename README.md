@@ -7,6 +7,7 @@
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,700;0,6..72,800;1,6..72,400&amp;family=Work+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+  <body>
 <script id="tailwind-config">
       tailwind.config = {
         darkMode: "class",
@@ -38,6 +39,7 @@
       }
     </script>
 <style>
+
         .material-symbols-outlined {
             font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
         }
@@ -64,11 +66,11 @@
 <div class="hidden md:flex items-center gap-10">
 <a class="font-body text-sm tracking-wide font-semibold text-secondary border-b-2 border-secondary pb-1" href="#home">Home</a>
 <a class="font-body text-sm tracking-wide text-primary hover:text-secondary transition-colors" href="#catalog">Catalog</a>
-<a class="font-body text-sm tracking-wide text-primary hover:text-secondary transition-colors" href="#about">About</a>
+<a class="font-body text-sm tracking-wide text-primary 14171485931-secondary transition-colors" href="#about">About</a>
 <a class="font-body text-sm tracking-wide text-primary hover:text-secondary transition-colors" href="#contact">Contact</a>
 </div>
 <div class="flex items-center gap-6">
-<span class="material-symbols-outlined text-primary cursor-pointer hover:text-secondary transition-colors">search</span>
+<img src="LogATKsejahtera2.png" alt="Logo" width="70" height="50">
 </div>
 </div>
 </nav>
@@ -79,7 +81,7 @@
 </div>
 <div class="max-w-7xl mx-auto px-8 grid lg:grid-cols-12 gap-16 items-center relative z-10">
 <div class="lg:col-span-7">
-<span class="text-gold font-body text-xs font-bold tracking-[0.3em] uppercase mb-6 block">Established Heritage • Since 2010</span>
+<span class="text-gold font-body text-xs font-bold tracking-[0.3em] uppercase mb-6 block">“Warisan • Sejak 2010”</span>
 <h1 class="text-5xl md:text-7xl font-headline font-extrabold tracking-tight mb-8 leading-[1.05]">
                 Solusi Kebutuhan Kantor <br/>
 <span class="serif-italic text-gold">Terbaik &amp; Terpercaya</span>
@@ -96,6 +98,18 @@
                 </a>
 </div>
 </div>
+  <div>
+    <ul>
+    <strong>cara pesan</strong>
+      <li>-pilih produk yang diinginkan</li>
+      <li>-ketuk + untuk menambahkan produk 1 pack dan ketuk - untuk mengurangi 1 pack produk</li>
+      <li>-jika selesai pesan gulir sampai ke keranjang belanja dan pastikan untuk cek pesanan kalau ada produk yang gk jadi dipesan klik tombol X maka pesanan dihapus</li>
+    </ul>
+  </div>
+
+  
+  
+  
 <div class="lg:col-span-5">
 <div class="relative rounded-sm overflow-hidden aspect-[3/4] border-[12px] border-white/5 premium-shadow">
 <img alt="Premium Stationery" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNuQijbvAGgDAQym--EphKkSrmcWdEnF8wBgqy_w6fJSpbSvy8tk0St6-33PItEISsC_x8PNKbOpCiOBw3c_tA7NVbDt36dge61kBnLG_Zun5167H6w2qYUUcNhUppyRFaDZ6v8y9qcDntf1dsSxDQR3Cyvhues2lZga7DTfVYceYiZjPTN5STqHwvvp9SLwSRGFTIGEGEK6KGA81t7SaAGjegD8G9siUzuzlg_fdlgdnylhg_nEiP7EyPU-9QSJwjAIcxMevLjK7U"/>
@@ -112,55 +126,54 @@
 <span class="text-secondary font-body text-xs font-bold tracking-[0.3em] uppercase mb-4 block">Seasonal Selection</span>
 <h2 class="text-5xl font-headline font-extrabold text-primary tracking-tight">Koleksi Instrumen Premium</h2>
 </div>
-<div class="flex gap-3">
-<button class="w-14 h-14 rounded-full border border-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all">
-<span class="material-symbols-outlined">west</span>
-</button>
-<button class="w-14 h-14 rounded-full border border-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all">
-<span class="material-symbols-outlined">east</span>
-</button>
-</div>
-</div>
 <!-- Product Grid -->
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 <!-- Product Card 1 -->
 <div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
 <div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
-<img alt="Faber-Castell" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDO3MvR-L7-uNyRwYfssvrtymlB5ky5d0rAwRWAy1nZhLvflnPULf0x8_yLuxQ1egPnJcFj9ZVF_4YAtl-5ABo3cQbwV2b_CeRVkdJxrJDjezTgLxCuenmQBO9qY6-LNXwosiJWWMWrds1mDdFMhgmx5mmBtLy-FdKjRPhfZORp1QW9ePGRdLeOU3IhswXNtHyqOfFmsbViq3B8Y0-mm0uyQDuNQlBMH_vwYno70HC6F5z5-eP1pZZn32aQO8TP5aDV3gaCD17ieMFC"/>
-<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-<a class="bg-white text-primary px-6 py-3 font-body font-bold text-xs tracking-widest uppercase hover:bg-gold hover:text-white transition-colors" a class="text-gold flex items-center gap-2 font-bold text-xs tracking-wider uppercase group-hover:underline" href="https://wa.me/6285655504887">
-                                WhatsApp <span class="material-symbols-outlined text-sm">open_in_new</span>
-</a>
-</div>
-</div>
-<div class="p-8 flex flex-col flex-grow">
-<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Pens &amp; Writing</span>
-<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Faber-Castell Blue Edition</h3>
-<div class="flex flex-col gap-4">
-<p class="text-sm font-body font-medium text-slate-400">Harga Satuan</p>
-<div class="flex justify-between items-end">
-<p class="text-2xl font-headline font-extrabold text-primary">Rp 12.000</p>
-</div>
-</div>
-</div>
-</div>
-<!-- Product Card 2 -->
-<div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
-<div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
-<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 "src=https://www.lazada.co.id/products/kertas-hvs-a4-80-gr-80-gsm-80gram-paperline-signature-pengganti-gold-i5497010877.html"/>
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="Kertas.jpg_720x720q80.jpg""/>
 <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
 </div>
 </div>
 <div class="p-8 flex flex-col flex-grow">
-<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Paper Media</span>
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Kertas & Media</span>
 <h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Paperline A4 80gsm</h3>
 <div class="flex flex-col gap-4">
 <p class="text-sm font-body font-medium text-slate-400">Harga Per Rim</p>
 <div class="flex justify-between items-end">
 <p class="text-2xl font-headline font-extrabold text-primary">Rp 55.000</p>
-<a class="text-gold flex items-center gap-2 font-bold text-xs tracking-wider uppercase group-hover:underline" href="https://wa.me/6285655504887">
-                                WhatsApp <span class="material-symbols-outlined text-sm">open_in_new</span>
-</a>
+<div class="flex items-center gap-2 mt-3">
+  <button onclick="remove('Paperline A4 80gsm')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+  <button onclick="add('Paperline A4 80gsm',55000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+    <!-- Product Card 2 -->
+<div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
+<div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="Isistapler.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">penjilidan & peralatan</span>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">isi stapler Joyko HD-10</h3>
+<div class="flex flex-col gap-4">
+<p class="text-sm font-body font-medium text-slate-400">Harga Per paket(20 kotak kecil)</p>
+<div class="flex justify-between items-end">
+<p class="text-2xl font-headline font-extrabold text-primary">Rp 23.000</p>
+<button onclick="remove('isi stapler Joyko HD-10')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('isi stapler Joyko HD-10',23000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
+  
 </div>
 </div>
 </div>
@@ -168,21 +181,24 @@
 <!-- Product Card 3 -->
 <div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
 <div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
-<img alt="Joyko" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCj_F4rfadkrMJH008mJyGsSfhaD1d20zZfVRrnPyMuNQ2WV3q8AS02C8ay3XmY3hXBUguo29ihzXKSmf6fttYLEdaMURSHpQtedOIG5oHFk3u5DZEebl12xqS3ha3xwbxxtnIv3Eea3CIMpJCFsEYfURZNnXrxQGB3uTFQmmX4I27M80Hpw1p0uwiiQORprXhRKBkI2mnL0LdUA6B1KM9X2_sTkN-OkEo-MzbrMTwgjgB9aqQfuaiWw1u9koDo7B9G2jR8VS3VazTR"/>
+<img alt="Joyko" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="Stapler joyko.jpg"/>
 <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-<a class="bg-white text-primary px-6 py-3 font-body font-bold text-xs tracking-widest uppercase hover:bg-gold hover:text-white transition-colors" href="https://wa.me/6285655504887?text=Saya%20tertarik%20Joyko">Pesan Sekarang</a>
 </div>
 </div>
 <div class="p-8 flex flex-col flex-grow">
-<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Binding &amp; Tools</span>
-<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Joyko HD-10 Staples</h3>
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Penjilidan & Peralatan</span>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Joyko HD-10 Stapler</h3>
 <div class="flex flex-col gap-4">
 <p class="text-sm font-body font-medium text-slate-400">Harga Satuan</p>
 <div class="flex justify-between items-end">
 <p class="text-2xl font-headline font-extrabold text-primary">Rp 15.000</p>
-<a class="text-gold flex items-center gap-2 font-bold text-xs tracking-wider uppercase group-hover:underline" href="https://wa.me/6285655504887">
-                                WhatsApp <span class="material-symbols-outlined text-sm">open_in_new</span>
-</a>
+<button onclick="remove(' stapler Joyko HD-10')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('stapler Joyko HD-10',15000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
+
 </div>
 </div>
 </div>
@@ -190,22 +206,386 @@
 <!-- Product Card 4 -->
 <div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
 <div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
-<img alt="Snowman" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpoHqKLGKRyNsbLPwydGdq-zAzLXpDSCSUeD7MUm2U9oX-5Aoc7hA8gd16OzzrRQspNFi2yw6r5EN9NgyqGNnHdmbkvjW2Txd_8Kg6Jma5bJ_3BLZv6WN39-50hMs-pcbRd7wThU9u6tPZJyt2mZm1LNNGk3Py5l1XcEeI8tdfVM9N_CuS3RAO0h49DPqOHzUyMoYfo5qqbwO8CP8NKwx4VT9su-0QIqYNTMTM0Jz7DdwzDfQRTCB-ppcQ-e-yKbAJSoi2w6du2Vh-"/>
+<img alt="Snowman" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="PulpenSnowman.jpg"/>
 <div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-<a class="bg-white text-primary px-6 py-3 font-body font-bold text-xs tracking-widest uppercase hover:bg-gold hover:text-white transition-colors" href="https://wa.me/6285655504887?text=Saya%20tertarik%20Snowman">Pesan Sekarang</a>
 </div>
 </div>
 <div class="p-8 flex flex-col flex-grow">
-<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Marking</span>
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Alat tulis</span>
 <h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Snowman Board Marker</h3>
 <div class="flex flex-col gap-4">
-<p class="text-sm font-body font-medium text-slate-400">Harga Satuan</p>
+<p class="text-sm font-body font-medium text-slate-400">Harga Per pack(12 pcs)</p>
 <div class="flex justify-between items-end">
-<p class="text-2xl font-headline font-extrabold text-primary">Rp 8.000</p>
-<a class="text-gold flex items-center gap-2 font-bold text-xs tracking-wider uppercase group-hover:underline" href="https://wa.me/6285655504887">
-                                WhatsApp <span class="material-symbols-outlined text-sm">open_in_new</span>
-</a>
+<p class="text-2xl font-headline font-extrabold text-primary">Rp 80.000</p>
+<button onclick="remove('Snowman Board Marker')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('Snowman Board Marker',80000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
+
 </div>
+</div>
+</div>
+</div>
+</div>
+  <!-- Product Card 5 -->
+<div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
+<div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="Penanda warna.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Peralatan</span>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Highlighter Joyko</h3>
+<div class="flex flex-col gap-4">
+<p class="text-sm font-body font-medium text-slate-400">Harga per pack(10 pcs)</p>
+<div class="flex justify-between items-end">
+<p class="text-2xl font-headline font-extrabold text-primary">Rp 25.000</p>
+  <button onclick="remove('Highlighter Joyko')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('Highlighter Joyko',25000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
+
+</div>
+</div>
+</div>
+</div>
+  <!-- Product Card 6 -->
+<div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
+<div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="PulpenAE7.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Alat Tulis</span>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Pulpen Standar AE7</h3>
+<div class="flex flex-col gap-4">
+<p class="text-sm font-body font-medium text-slate-400">Harga Per pack(12 pcs)</p>
+<div class="flex justify-between items-end">
+<p class="text-2xl font-headline font-extrabold text-primary">Rp 23.000</p>
+<button onclick="remove('Pulpen Standar AE7')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('Pulpen Standar AE7',23000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
+</div>
+</div>
+</div>
+</div>
+ <!-- Product Card 7 -->
+<div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
+<div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="Pilot BP-S.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Alat tulis</span>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Pilot BP-S,pulpen tinta halus</h3>
+<div class="flex flex-col gap-4">
+<p class="text-sm font-body font-medium text-slate-400">Harga Per pack(12 pcs)</p>
+<div class="flex justify-between items-end">
+<p class="text-2xl font-headline font-extrabold text-primary">Rp 20.000</p>
+<button onclick="remove('Pilot BP-S,pulpen tinta halus')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('Pilot BP-S,pulpen tinta halus',20000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>  
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 8 -->
+<div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
+<div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="Buku tulis.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Kertas & media</span>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Buku sidu (isi 38 lembar)</h3>
+<div class="flex flex-col gap-4">
+<p class="text-sm font-body font-medium text-slate-400">Harga per pack(12 pcs)</p>
+<div class="flex justify-between items-end">
+<p class="text-2xl font-headline font-extrabold text-primary">Rp 35.000</p>
+<button onclick="remove('Buku sidu (isi 38 lembar)')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('Buku sidu (isi 38 lembar)',35000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 9 -->
+<div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
+<div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="Catatan tempel.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Kertas & Media</span>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Post-it 3M 654 (73x73mm),catatan tempel </h3>
+<div class="flex flex-col gap-4">
+<p class="text-sm font-body font-medium text-slate-400">Harga per pack(100 lembar)</p>
+<div class="flex justify-between items-end">
+<p class="text-2xl font-headline font-extrabold text-primary">Rp 16.000</p>
+<button onclick="remove('Post-it 3M 654 (73x73mm),catatan tempel')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('Post-it 3M 654 (73x73mm),catatan tempel',16000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 10 -->
+<div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
+<div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="Amplop.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Kertas & media</span>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Amplop coklat F4</h3>
+<div class="flex flex-col gap-4">
+<p class="text-sm font-body font-medium text-slate-400">Harga per pack(isi 100 lembar)</p>
+<div class="flex justify-between items-end">
+<p class="text-2xl font-headline font-extrabold text-primary">Rp 45.000</p>
+<button onclick="remove('Amplop coklat F4')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('Amplop coklat F4',45000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 11 -->
+<div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
+<div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="Binder clip.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Penjilidan dan peralatan</span>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Binder clip Kenko</h3>
+<div class="flex flex-col gap-4">
+<p class="text-sm font-body font-medium text-slate-400">Harga per pack(12 pcs)</p>
+<div class="flex justify-between items-end">
+<p class="text-2xl font-headline font-extrabold text-primary">Rp 6.000</p>
+<button onclick="remove('Binder clip Kenko')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('Binder clip Kenko',6000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 12 -->
+<div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
+<div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="Paper clip.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Penjilidan & Peralatan</span>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Penjepit Kertas</h3>
+<div class="flex flex-col gap-4">
+<p class="text-sm font-body font-medium text-slate-400">Harga per box(100 pcs)</p>
+<div class="flex justify-between items-end">
+<p class="text-2xl font-headline font-extrabold text-primary">Rp 14.000</p>
+<button onclick="remove('Penjepit Kertas')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('Penjepit Kertas',14000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 13 -->
+<div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
+<div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="Map.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Penjilidan & Peralatan</span>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Map snelhecter arsip dengan penjepit</h3>
+<div class="flex flex-col gap-4">
+<p class="text-sm font-body font-medium text-slate-400">Harga per pack</p>
+<div class="flex justify-between items-end">
+<p class="text-2xl font-headline font-extrabold text-primary">Rp 150.000</p>
+<button onclick="remove('Map snelhecter arsip dengan penjepit')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('Map snelhecter arsip dengan penjepit',150000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 14 -->
+<div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
+<div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="Ordner.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Penjilidan dan peralatan</span>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Ordner/Binder Bantex </h3>
+<div class="flex flex-col gap-4">
+<p class="text-sm font-body font-medium text-slate-400">Harga per pack(15 pcs)</p>
+<div class="flex justify-between items-end">
+<p class="text-2xl font-headline font-extrabold text-primary">Rp 550.000</p>
+<button onclick="remove('Ordner/Binder Bantex')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('Ordner/Binder Bantex',550000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 15 -->
+<div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
+<div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="Gunting.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Peralatan</span>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Gunting Joyko(sc-828)</h3>
+<div class="flex flex-col gap-4">
+<p class="text-sm font-body font-medium text-slate-400">Harga per pack(12 pcs)</p>
+<div class="flex justify-between items-end">
+<p class="text-2xl font-headline font-extrabold text-primary">Rp 55.000</p>
+<button onclick="remove('Gunting Joyko(sc-828)')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('Gunting Joyko(sc-828)',55000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 16 -->
+<div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
+<div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="Cutter.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Peralatan</span>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">cutter kenko</h3>
+<div class="flex flex-col gap-4">
+<p class="text-sm font-body font-medium text-slate-400">Harga per pack( 1 pcs)</p>
+<div class="flex justify-between items-end">
+<p class="text-2xl font-headline font-extrabold text-primary">Rp 20.000</p>
+<button onclick="remove('cutter kenko')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('cutter kenko',20000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 17 -->
+<div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
+<div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="Isi cutter.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Peralatan</span>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">isi cutter kenko</h3>
+<div class="flex flex-col gap-4">
+<p class="text-sm font-body font-medium text-slate-400">Harga per tube kecil(5 pcs)</p>
+<div class="flex justify-between items-end">
+<p class="text-2xl font-headline font-extrabold text-primary">Rp 10.000</p>
+<button onclick="remove('isi cutter kenko')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('isi cutter kenko',10000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 18 -->
+<div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
+<div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="Lem.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Peralatan</span>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">lem fox 150 gram</h3>
+<div class="flex flex-col gap-4">
+<p class="text-sm font-body font-medium text-slate-400">Harga per pack(12 pcs)</p>
+<div class="flex justify-between items-end">
+<p class="text-2xl font-headline font-extrabold text-primary">Rp 120.000</p>
+<button onclick="remove('lem fox 150 gram')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('lem fox 150 gram',120000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 19 -->
+<div class="group flex flex-col h-full bg-white border border-primary/5 hover:border-gold/30 transition-all duration-500">
+<div class="aspect-[4/5] bg-surface-container overflow-hidden relative">
+<img alt="Paperline" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="Lakban.jpg"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<span class="text-[10px] font-body font-bold tracking-[0.2em] text-gold uppercase mb-2">Peralatan</span>
+<h3 class="text-xl font-headline font-bold text-primary mb-6 flex-grow">Lakban daimaru/nachi</h3>
+<div class="flex flex-col gap-4">
+<p class="text-sm font-body font-medium text-slate-400">Paket 6 roll</p>
+<div class="flex justify-between items-end">
+<p class="text-2xl font-headline font-extrabold text-primary">Rp 50.000</p>
+<button onclick="remove('Paket 6 roll')" 
+    class="px-3 py-1 bg-red-500 text-white rounded">-</button>
+
+
+  <button onclick="add('Paket 6 roll',50000)" 
+    class="px-3 py-1 bg-green-500 text-white rounded">+</button>
 </div>
 </div>
 </div>
@@ -215,6 +595,19 @@
                 Katalog Lengkap (2024)
             </a>
 </div>
+</div>
+<!-- 🛒 Keranjang -->
+<div class="mt-20 p-6 bg-white border rounded-lg shadow">
+  <h2 class="text-xl font-bold mb-3">Keranjang</h2>
+
+  <div id="cartItems" class="text-sm mb-3">Kosong</div>
+
+  <p class="font-bold">Total: Rp <span id="total">0</span></p>
+
+  <button onclick="checkout()" 
+    class="mt-3 px-5 py-2 bg-green-600 text-white rounded">
+    Pesan via WhatsApp
+  </button>
 </div>
 </section>
 <!-- About Section -->
@@ -277,11 +670,10 @@
 </section>
 <!-- Contact Section -->
 <section class="py-32" id="contact">
-<div class="max-w-7xl mx-auto px-8">
+<div class="max-w-7xl mx-auto px-5">
 <div class="grid lg:grid-cols-12 gap-20">
 <div class="lg:col-span-5">
-<span class="text-secondary font-body text-xs font-bold tracking-[0.3em] uppercase mb-4 block">Inquiry &amp; Support</span>
-<h2 class="text-5xl font-headline font-extrabold text-primary mb-12">Mari <span class="serif-italic">Terhubung</span></h2>
+<h2 class="text-5xl font-headline font-extrabold text-primary mb-12">Mari <span class="serif-italic">Datang Langsung</span></h2>
 <div class="space-y-12">
 <div class="flex gap-8 group">
 <div class="shrink-0 w-14 h-14 bg-surface-container-high border border-primary/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all">
@@ -289,27 +681,61 @@
 </div>
 <div>
 <h5 class="font-headline font-bold text-lg text-primary mb-2">Headquarters</h5>
-<p class="text-on-surface-variant font-light">R9JC+JH9 Sumberagung, Kabupaten Jember, Jawa Timur</p>
+<p class="text-on-surface-variant font-light" >
+ <a href="https://www.google.com/maps?q=-8.123456,113.123456" target="_blank"style="color:blue;">
+  R9JC+JH9 Sumberagung, Kabupaten Jember, Jawa Timur
+</a></p>
+<script>
+let cart = {};
+
+function add(nama,harga){
+  if(!cart[nama]) cart[nama]={harga:harga,qty:0};
+  cart[nama].qty++;
+  render();
+}
+
+function remove(nama){
+  if(cart[nama]){
+    cart[nama].qty--;
+    if(cart[nama].qty<=0) delete cart[nama];
+  }
+  render();
+}
+
+function render(){
+  let isi="";
+  let total=0;
+
+  for(let i in cart){
+    let sub=cart[i].harga*cart[i].qty;
+    total+=sub;
+
+    isi+=`${i} x${cart[i].qty} = Rp ${sub}
+    <button onclick="remove('${i}')">❌</button><br>`;
+  }
+
+  document.getElementById("cartItems").innerHTML = isi || "Kosong";
+  document.getElementById("total").innerText = total;
+}
+
+function checkout(){
+  let pesan="Halo, saya ingin beli:\n";
+  let total=0;
+
+  for(let i in cart){
+    let sub=cart[i].harga*cart[i].qty;
+    total+=sub;
+    pesan+=`- ${i} x${cart[i].qty} = Rp ${sub}\n`;
+  }
+
+  pesan+=`\nTotal: Rp ${total}`;
+
+  window.open("https://wa.me/6285655504887?text="+encodeURIComponent(pesan));
+}
+</script>
 </div>
 </div>
-<div class="flex gap-8 group">
-<div class="shrink-0 w-14 h-14 bg-surface-container-high border border-primary/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all">
-<span class="material-symbols-outlined">call</span>
-</div>
-<div>
- <a href="https://wa.me/6285655504887">
-  Chat Saya di WhatsApp
-</a>
 </div>
 </div>
 </div>
-<div class="flex gap-8 group">
-<div class="shrink-0 w-14 h-14 bg-surface-container-high border border-primary/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all">
-<span class="material-symbols-outlined">mail</span>
-</div>
-<div>
-<h5 class="font-headline font-bold text-lg text-primary mb-2">Email Official</h5>
-<p class="text-on-surface-variant font-light">sales@atksejahtera.com</p>
-</div>
-</div>
-</div>
+</body>
